@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  linear-gradient(rgba(26, 33, 29, 0.5),#24302f),url(./logo.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: rgb(146, 155, 117);
+    padding: 5px;
+    border-radius: 4px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.search{
+    float: right;
+    padding: 4px 7px;
+}
+.search input{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px 8px;
+
+}
+.txt{
+    color: white;
+    text-align: center;
+    /* background-position: center; */
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 180px;
+}
+.btn{
+    background-color: aqua;
+    padding: 6px 6px;
+    width: 120px;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+.txt a{
+    text-decoration: none;
+
+
+}
